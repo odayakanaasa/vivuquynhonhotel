@@ -15,22 +15,22 @@ mob:
     class: rooms
 
 large:
-  - title: Studio
+  - title: Hình ảnh Hotel
     title-mob: Studio
     href: "studio"
     class: rooms
 
-  - title: One bedroom
+  - title: Phòng Đôi
     title-mob: One bed
     href: "onebedroom"
     class: rooms
 
-  - title: Two bedroom
+  - title: Phòng Đôi
     title-mob: Two bed
     href: "twobedroom"
     class: rooms
 
-  - title: Contact
+  - title: Liên hệ
     title-mob: Contact
     href: "contact"
     class: hidden
@@ -40,7 +40,7 @@ large:
     href: "studio"
     class: hidden
 
-  - title: Reviews
+  - title: Đánh giá
     title-mob: Reviews
     href: "reviews"
     class: hidden
