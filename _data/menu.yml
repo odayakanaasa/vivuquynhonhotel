@@ -1,15 +1,15 @@
 mob:
-  - title: Studio
-    title-mob: Studio
-    href: "studio"
+  - title: Đặt phòng
+    title-mob: Reservation
+    href: "reservation"
     class: rooms
 
-  - title: One bedroom
+  - title: Phòng đơn
     title-mob: One bed
     href: "onebedroom"
     class: rooms
 
-  - title: Two bedroom
+  - title: Phòng đôi
     title-mob: Two bed
     href: "twobedroom"
     class: rooms
@@ -35,9 +35,9 @@ large:
     href: "contact"
     class: hidden
 
-  - title: Reservation
-    title-mob: Reservation
-    href: "reservation"
+  - title: Studio
+    title-mob: Studio
+    href: "studio"
     class: hidden
 
   - title: Reviews
