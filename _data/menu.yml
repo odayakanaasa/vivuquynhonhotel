@@ -1,16 +1,16 @@
 mob:
   - title: Đặt phòng
-    title-mob: Reservation
+    title-mob: Đặt phòng
     href: "reservation"
     class: rooms
 
   - title: Phòng đơn
-    title-mob: One bed
+    title-mob: Phòng đơn
     href: "onebedroom"
     class: rooms
 
   - title: Phòng đôi
-    title-mob: Two bed
+    title-mob: Phòng đôi
     href: "twobedroom"
     class: rooms
 
