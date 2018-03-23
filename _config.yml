@@ -1,7 +1,7 @@
 # Site settings
-title: Vivu Quy Nhơn Hotel
+title: Vivu Quy Nhơn Hotel - 110 Xuân Diệu, Thành phố Quy Nhơn, Bình Định
 email: odayakabe@gmail.com
-description: "Khách sạn Vi Vu Quy Nhơn"
+description: "Khách sạn Vi Vu Quy Nhơn - 110 Xuân Diệu, Thành phố Quy Nhơn, Bình Định"
 baseurl: ""
 sass:
     sass_dir: _sass
