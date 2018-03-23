@@ -1,0 +1,20 @@
+ <section class="slider">
+        <div class="flexslider">
+          <ul class="slides">
+              {% for image in site.data.slideshow.slideshow.images %} 
+            <li>
+  	    	     <img class="lazy" src="/assets/loading.jpg" data-src="{{ image.src | prepend: '/assets/'| prepend: site.baseurl | prepend: site.url}}" >
+  	    		</li>
+              {% endfor %}
+  	    	</ul>
+        </div>
+        <div class="slideshow-message">
+            <div class="slideshow-message-inside">
+                    <div class="slideshow-title">{{ site.data.slideshow.slideshow.title }}</div>
+                    <div class="slideshow-subtitle">{{ site.data.slideshow.slideshow.subtitle }}</div>
+                </div>
+         </div>
+      </section>
+
+
+

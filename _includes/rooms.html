@@ -1,0 +1,52 @@
+{% assign rooms = site.rooms | sort: 'order' %}
+{% for room in rooms %}
+    <section id="{{ room.section }}" class="rooms {{ room.section }} ">
+            <div class="rooms-inside">
+            <div class="rooms-header">
+                <div class="rooms-title" >{{ room.title }}</div>
+                <div class="rooms-subtitle" >{{ room.subtitle }} </div>
+              </div>
+                <div class="column-left">
+                     <div class="rooms-img">
+                        <div class="flexslider-rooms">
+                          <ul class="slides">
+                          {% assign image_files = site.static_files | where: "room",room.section %}
+                            {% for image in image_files %}
+                                    <li data-thumb="{{site.baseurl}}/assets/rooms/thumbnails/{{room.section}}/{{image.basename}}{{image.extname}}">
+                                      <img class="lazy" src="/assets/loading.jpg" data-src="{{site.baseurl}}/assets/rooms/{{room.section}}/{{image.basename}}{{image.extname}}" />
+                                    </li>
+                             {% endfor %}
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-right">
+
+                    <div class="rooms-description"> {{ room.content }} </div>
+
+                   <table class="prices">
+                       <thead>
+                           <tr>
+                               {% for season in site.data.season.seasons.season %}
+                                   <th class="row_0">{{ season.title }}</th>
+                               {% endfor %}
+                           </tr>
+                       </thead>
+                           <tbody>
+                                 <tr>
+                                     <td> {{ room.low }} </td>
+                                     <td> {{ room.medium1 }} </td>
+                                     <td> {{ room.high }} </td>
+                                    <td> {{ room.medium2 }} </td>
+                                  </tr>
+                               </tbody>
+                    </table>
+
+                </div>
+            <div class="rooms-footer">
+                 <div class="link-button"><a href="#reservation" class="button  button-flat button-primary">
+                        <i class="icon-chevron-right"></i>Ask the owner</a></div>
+                </div>
+                </div>
+        </section>
+{% endfor %}

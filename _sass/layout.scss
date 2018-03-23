@@ -1,0 +1,70 @@
+@import "sass-components";
+@import "susy-config";
+
+$mob: 250px 770px;
+$tablet: 780px;
+
+section {
+    @include full;
+
+}
+@media(min-width: 250px) and (max-width: 794px) {
+    .navigation .menu,
+    .site-footer .wrap {
+        @include container(25em);
+    }
+    .reviews-inside {
+        @include container;
+        padding-top: 6em;
+        padding-bottom: 8em;
+
+    }
+    .contact {
+        @include container;
+        margin:0;
+    }
+}
+@media(min-width: 800px) {
+    .mobile-menu {
+        display: none;
+    }
+    .offer-wrapper {
+        @include full;
+    }
+    .navigation .menu,
+    .rooms-inside, 
+    .site-footer .wrap,
+    .offer {
+        @include container(70em);
+    }
+    .slideshow-message {
+        z-index: 2000;
+        height: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        @include container;
+            .slideshow-message-inside {
+            position: absolute;
+            top: 8em;
+            }
+    }
+
+    .navigation {
+        width: 100%;
+        z-index: 5000;
+    }
+    .reviews-inside {
+        @include container;
+        padding-top: 7em;
+        padding-bottom: 8em;
+        .review {
+            @include gallery(4 of 12);
+            margin-bottom: 30px;
+            }
+    }
+    .contact {
+        @include push(7 of 12);
+        margin-top: -425px;
+        position:absolute;    
+    }
+}

@@ -1,0 +1,10 @@
+slideshow:
+ title: "Ansi-Almyrida"
+ subtitle: "enjoy magnificent views from your balcony"
+ images:
+  - src: /rooms/slideshow/onebedroom-03.jpg
+    alt: ""  
+  - src: /rooms/slideshow/twobedroom-06.jpg
+    alt: ""
+  - src: /rooms/slideshow/twobedroom-11.jpg
+    alt: ""  
