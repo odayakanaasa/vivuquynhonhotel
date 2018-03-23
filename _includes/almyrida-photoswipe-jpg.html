@@ -13,7 +13,7 @@
                             <a href="{{site.baseurl}}/assets/rooms2/views/{{image-basename}}-{% if image.orientation == portrait %}portrait{% else %}full{% endif %}.jpg" itemprop="contentUrl" data-size="{% if image.orientation == portrait %}{% capture imagewebp %}{{image-basename}}-portrait.jpg{% endcapture %}{% else %} {% capture imagewebp %}{{image-basename}}-full.jpg{% endcapture %}{% endif %}{% assign imagesize = site.data.photos.index-resized.views| where: "filename",imagewebp %} {% for imagedimention in imagesize %}{{imagedimention.width}}x{{imagedimention.height}}{% endfor %}">
                                 <img src="{{site.baseurl}}/assets/rooms2/views/{{image-basename}}-thumb.jpg" itemprop="thumbnail" alt="Image description" />
                             </a>
-                          <figcaption itemprop="caption description">Ansi / views-{{ forloop.index }}</figcaption>
+                          <figcaption itemprop="caption description">Vivu / views-{{ forloop.index }}</figcaption>
                       </figure>
                     {% endfor %}
                     {% assign image_files = site.data.photos.index.outer %}
@@ -23,7 +23,7 @@
                             <a href="{{site.baseurl}}/assets/rooms2/outer/{{image-basename}}-{% if image.orientation == portrait %}portrait{% else %}full{% endif %}.jpg" itemprop="contentUrl" data-size="{% if image.orientation == portrait %}{% capture imagewebp %}{{image-basename}}-portrait.jpg{% endcapture %}{% else %} {% capture imagewebp %}{{image-basename}}-full.jpg{% endcapture %}{% endif %}{% assign imagesize = site.data.photos.index-resized.outer | where: "filename",imagewebp %} {% for imagedimention in imagesize %}{{imagedimention.width}}x{{imagedimention.height}}{% endfor %}">
                                 <img src="{{site.baseurl}}/assets/rooms2/outer/{{image-basename}}-thumb.jpg" itemprop="thumbnail" alt="Image description" />
                             </a>
-                          <figcaption itemprop="caption description">Ansi / outer-{{ forloop.index }}</figcaption>
+                          <figcaption itemprop="caption description">Vivu / outer-{{ forloop.index }}</figcaption>
                       </figure>
                     {% endfor %}
                   </div>

@@ -1,4 +1,5 @@
-ansi-jekyll
+Vi vu Quy Nhon Hotel
 ===========
 
-Ansi Hotel- website made by jekyll
+Developer: Pham Xuan Tiep
+Vivu Hotel- website made by jekyll
