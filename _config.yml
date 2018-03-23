@@ -1,7 +1,7 @@
 # Site settings
-title: Ansi Hotel
-email: info@ansi-almyrida.gr
-description: "Enjoy magnificent views from your balcony"
+title: Vivu Quy Nhơn Hotel
+email: odayakabe@gmail.com
+description: "Khách sạn Vi Vu Quy Nhơn"
 baseurl: ""
 sass:
     sass_dir: _sass
