@@ -5,11 +5,11 @@ subtitle: 2 Persons
 section: studio
 published: true
 order: 1
-low: "40€"
-medium1: "50€"
-medium2: "60€"
-high: "70€"
-prices-from: "from 40€"
+low: "390.000đ"
+medium1: "550.000đ"
+medium2: "550.000đ"
+high: "550.000đ"
+prices-from: "từ 390.000đ"
 ---
 
 Studios are suitable for 2 persons. 
