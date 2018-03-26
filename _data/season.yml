@@ -2,16 +2,14 @@ seasons:
  season:
     - season: low
       title: | 
-       April - May, 
-       October
+       Giá ngày thường
     - season: medium1
-      title: "June"
+      title: "Ngày lễ"
     - season: high
       title: | 
-       July <br>
-       August
+       Tết
     - season: medium2
-      title: "September"  
+      title: "Ngày đặc biệt"  
  dates:
    low:
      - row: 1 Apr - 31 May
@@ -22,9 +20,9 @@ seasons:
    high: 
      - row: 1 Jul - 31 Aug
  pricesfrom:
-   low: "from 35€"
-   medium: "from 45€"
-   high: "from 70€"
+   low: "từ 390.000đ"
+   medium: "từ 390.000đ"
+   high: "từ 390.000đ"
     
 
 
