@@ -5,11 +5,11 @@ subtitle: 4 persons
 section: twobedroom
 published: true
 order: 3
-low: "80€"
-medium1: "90€"
-medium2: "100€"
-high: "120€"
-prices-from: "from 80€"
+low: "390.000đ"
+medium1: "550.000đ"
+medium2: "550.000đ"
+high: "550.000đ"
+prices-from: "từ 390.000đ"
 ---
 
 Two bedroom Apartment is suitable for 4 or 5 persons, though 5 persons it is not recommended. 
