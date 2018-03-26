@@ -15,7 +15,7 @@
                           <a href="{{site.baseurl}}/assets/rooms2/{{room.section}}/{{image-basename}}-{% if image.orientation == portrait %}portrait{% else %}full{% endif %}.webp" itemprop="contentUrl" data-size="{% if image.orientation == portrait %}{% capture imagewebp %}{{image-basename}}-portrait.webp{% endcapture %}{% else %} {% capture imagewebp %}{{image-basename}}-full.webp{% endcapture %}{% endif %}{% assign imagesize = site.data.photos.index-resized[room.section] | where: "filename",imagewebp %} {% for imagedimention in imagesize %}{{imagedimention.width}}x{{imagedimention.height}}{% endfor %}">
                               <img src="{{site.baseurl}}/assets/rooms2/{{room.section}}/{{image-basename}}-thumb.webp" itemprop="thumbnail" alt="Image description" />
                           </a>
-                        <figcaption itemprop="caption description">Ansi / {{ room.section }}-{{ forloop.index }}</figcaption>
+                        <figcaption itemprop="caption description">Vivu / {{ room.section }}-{{ forloop.index }}</figcaption>
                     </figure>
                   {% endfor %}
                   </div>
