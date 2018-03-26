@@ -1,7 +1,7 @@
 ---
-title: One Bedroom
+title: Phòng đơn
 categories: rooms
-subtitle: 2 or 3 persons
+subtitle: 2 đến 3 người
 section: onebedroom
 published: true
 order: 2
@@ -12,6 +12,7 @@ high: "550.000đ"
 prices-from: "từ 390.000đ"
 ---
 
-One bedroom Apartments are suitable for 2 or 3 persons.
-There are 2 apartments offering a living room with kitchen and refrigerator, a bedroom, with double or two single beds and a bathroom.
-Each one has its own balcony overlooking Souda Bay. All apartments have air condition and refrigerator.
+Mỗi phòng đơn của Khách sạn Vi Vu Quy Nhơn, số 110 Xuân Diệu, Thành phố Quy Nhơn.
+đều hướng ra biển, nơi nắng và gió tự nhiên, ưu đãi của thiên nhiên.
+Đủ cho 2 đến 3 người trên mỗi phòng.
+Mỗi phòng đều có ban công nhìn ra biển và ghế ngồi.

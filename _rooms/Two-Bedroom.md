@@ -1,7 +1,7 @@
 ---
-title: Two Bedroom
+title: Phòng đôi
 categories: rooms
-subtitle: 4 persons
+subtitle: 4 người
 section: twobedroom
 published: true
 order: 3
@@ -12,6 +12,7 @@ high: "550.000đ"
 prices-from: "từ 390.000đ"
 ---
 
-Two bedroom Apartment is suitable for 4 or 5 persons, though 5 persons it is not recommended. 
-It has 2 bedrooms, one living room with kitchen and refrigerator. 
-All rooms have air condition and a great view to Souda Bay.
+Mỗi phòng đôi của Khách sạn Vi Vu Quy Nhơn, số 110 Xuân Diệu, Thành phố Quy Nhơn.
+đều hướng ra biển, nơi nắng và gió tự nhiên, ưu đãi của thiên nhiên.
+Đủ cho 3 đến 4 người trên mỗi phòng.
+Mỗi phòng đều có ban công nhìn ra biển và ghế ngồi.
