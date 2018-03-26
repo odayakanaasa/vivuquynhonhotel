@@ -6,9 +6,9 @@ section: onebedroom
 published: true
 order: 2
 low: "390.000đ"
-medium1: "550.000đ"
-medium2: "550.000đ"
-high: "550.000đ"
+medium1: "390.000đ"
+medium2: "390.000đ"
+high: "390.000đ"
 prices-from: "từ 390.000đ"
 ---
 
