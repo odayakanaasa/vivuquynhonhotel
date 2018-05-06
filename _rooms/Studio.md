@@ -5,11 +5,11 @@ subtitle: 2 người
 section: studio
 published: true
 order: 1
-low: "390.000đ"
-medium1: "550.000đ"
-medium2: "550.000đ"
-high: "550.000đ"
-prices-from: "từ 390.000đ"
+low: "500.000đ"
+medium1: "600.000đ"
+medium2: "600.000đ"
+high: "600.000đ"
+prices-from: "từ 500.000đ"
 ---
 
 Mỗi phòng của Khách sạn Vi Vu Quy Nhơn, số 110 Xuân Diệu, Thành phố Quy Nhơn.
